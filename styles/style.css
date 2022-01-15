@@ -119,6 +119,10 @@ main{
     box-shadow: 2px 2px 25px rgb(121, 118, 114);
 }
 
+.heading img:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
 .heading-2 img{
     width: 85%;
     margin-right: 15%;
@@ -238,6 +242,12 @@ span{
     color: #5E6366;
 }
 
+#see-more{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 3%;
+}
 
 #see-more a{
     text-decoration: none;
@@ -285,4 +295,6 @@ footer h4{
 /* ---------------
     footer end
 ----------------- */
+
+
 
